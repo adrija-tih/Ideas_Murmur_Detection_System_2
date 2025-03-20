@@ -32,7 +32,7 @@ def ingestion_gui():
     with colT2:
         st.write("**Currently available audio files**")  #** for bold
         
-    data_grid = grid([1], vertical_align="centre")
+    data_grid = grid([1], vertical_align="center")
     container = data_grid.container()
     with container:
         ph = st.empty()
